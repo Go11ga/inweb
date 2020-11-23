@@ -1,0 +1,18 @@
+.author {
+    position: absolute;
+    right: 5rem;
+    bottom: 0;
+    z-index: 2;
+
+    @media (max-width: $breakpoint_lg) {
+        right: 2rem;
+    }
+
+    @media (max-width: $breakpoint_md) {
+        right: 0;
+    }
+
+    @media (max-width: $breakpoint_sm) {
+        display: none;
+    }
+}

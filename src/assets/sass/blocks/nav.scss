@@ -1,0 +1,37 @@
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+    font-weight: 500;
+
+    @media(max-width: $breakpoint_md) {
+        margin-top: 1rem;
+    }
+
+}
+
+.nav__link {
+    padding: .3rem 1.5rem;
+    margin-right: 1rem;
+
+    color: $black;
+    text-decoration: none;
+
+    border-radius: 20px;
+
+    transition: background .1s linear, color .1s linear;
+
+    &:hover {
+        background-color: $pink;
+        color: $white;
+    }
+
+    &.active {
+        color: $white;
+        background-color: $pink;
+    }
+
+    @media(max-width: $breakpoint_xs) {
+        width: 100%;
+    }
+}
