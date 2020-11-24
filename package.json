@@ -1,7 +1,7 @@
 {
-    "name": "skeleton",
+    "name": "inweb",
     "version": "1.0.0",
-    "description": "project using gulp4",
+    "description": "by gulp4",
     "author": "Dmitrijs Valaks",
     "devDependencies": {
         "browser-sync": "^2.26.3",
